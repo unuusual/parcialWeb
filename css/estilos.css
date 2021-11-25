@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    border: 2px solid black;
+    justify-content: start;
+}
+
+.contengoTodo{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 1em;
+}
+
+.contengoParteDos{
+    display: flex;
+    justify-content: center;
+}
+
+#unlam{
+    border: 2px solid black;
+    padding: 1em;
+    max-width: 100%;
+    width: 20%;
+}
+
+.parteDos label{
+    padding: 0.6em;
+}
+
+.parteDos input{
+    border: 2px solid black;
+}
+
+.botones{
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+    margin-top: 1em;
+}
+
+#btn{
+    border: none;
+    padding: 1em;
+    border-radius: 1em;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+#btn2{
+    border: none;
+    padding: 1em;
+    border-radius: 1em;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
+#btn3{
+    border: none;
+    padding: 1em;
+    border-radius: 1em;
+    background-color: yellow;
+    color: black;
+    cursor: pointer;
+}
+#btn4{
+    border: none;
+    padding: 1em;
+    border-radius: 1em;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.parteDos{
+    max-width: 100%;
+    border: 2px solid black;
+    padding: 1em;
+    width: 75%;
+}
+
+.azul{
+    background-color: blue;
+    color: white;
+}
+
+.verde{
+    background-color: green;
+    color: white;
+}
+
+.amarillo{
+    background-color: yellow;
+    color: black;
+}
+
+.restablecer{
+    background-color: white;
+    color: black;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+}
+
